@@ -30,7 +30,7 @@ jobs:
       run: mvn package -DskipTests
 
     - name: Upload artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: excel-monitor-jar
         path: target/*.jar
