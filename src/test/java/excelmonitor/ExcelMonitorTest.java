@@ -17,7 +17,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
 class ExcelMonitorTest {
-    private static final Path TEST_FILE = Path.of("ScienceFair2.xlsx");
+    private static final Path TEST_FILE = Path.of("ScienceFair.xlsx");
 
     @AfterEach
     void cleanup() throws IOException {
