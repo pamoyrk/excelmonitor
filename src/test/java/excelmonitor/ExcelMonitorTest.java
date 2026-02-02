@@ -8,7 +8,7 @@ import java.nio.file.Path;
 import org.junit.jupiter.api.Test;
 
 class ExcelMonitorTest {
-    private static final Path TEST_FILE = Path.of("ScienceFair.xlsx");
+    private static final Path TEST_FILE = Path.of("ScienceFair2.xlsx");
 
     @Test
     void fileExistsInDirectory() {
